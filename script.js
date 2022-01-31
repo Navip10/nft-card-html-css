@@ -63,7 +63,8 @@ document.getElementById("btn").addEventListener("click", function (){
         console.log("nft img change")
         document.getElementById("NFT").src = "https://lh3.googleusercontent.com/BLAw9VE-D5PyYfu7u_KbxBIrl_j5jI8I4UAt8H-qTGRZ4FBaFWNKb0HHP5Uk1shKvmC5LGpfi1ivK8G2BDuZOE30TVS8J8W-WngOyIE=w600"
         
-    
+        console.log("body bg-color change")
+        document.body.style.backgroundColor = dog.backgroundColor
     }
     
 
@@ -95,8 +96,9 @@ document.getElementById("btn").addEventListener("click", function (){
          document.getElementById("name").style.color = "gold"
 
          console.log("back to og nft img")
-        document.getElementById("NFT").src = "https://lh3.googleusercontent.com/2IUAwmNSFmo0cmx7F38VUJp5smW3b42JvIV_coxh0sA1I16cKvTUXQN9L8lX4iksxQrIOfRkA8Q9n2l_tMTMAK1mTQU72Ax3UaoZ_bo=w600" 
+         document.getElementById("NFT").src = "https://lh3.googleusercontent.com/2IUAwmNSFmo0cmx7F38VUJp5smW3b42JvIV_coxh0sA1I16cKvTUXQN9L8lX4iksxQrIOfRkA8Q9n2l_tMTMAK1mTQU72Ax3UaoZ_bo=w600" 
     
+         document.body.style.backgroundColor = "hsl(217,54%, 11%)"
     }
 })
     
